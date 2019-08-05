@@ -4,10 +4,10 @@ from telethon.tl.custom import Button
 from func import start, asfind_chats
 
 # Tresh
-phone = '+380936593570'
-api_hash = '8e643734dc596de5d2a082a1698c9489'
-api_id = 702193
-bot_token = '732023198:AAEoQQcFy_r5wRQzIF7qWfv4ieBfeGNChQ4'
+phone = '+38093 000 00 00'
+api_hash = ''
+api_id = ''
+bot_token = ''
 title_list = ['работа', 'работу', 'work', 'works']
 list_exept = ['Меню', 'Смена пользователя', 'Настройка чатов', 'Назад', 'Пусто', '']
 BACK = ''
