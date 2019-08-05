@@ -1,5 +1,4 @@
-# Teletesto
-Test TelegramBot and TelegramClient and create something crazy.   
+# Teletesto 
 Поиск в новых сообщениях в указаних чатах по заданому поисковому слову.  
 > Например:Отбор необходимых вакансий из чатов о поиске работы....и тд.  
 
