@@ -3,10 +3,10 @@ import re
 import setup
 import setup
 # from setup import list_del_chat, list_add_chat
-phone = '+380936593570'
-api_hash = '8e643734dc596de5d2a082a1698c9489'
-api_id = 702193
-bot_token = '732023198:AAEoQQcFy_r5wRQzIF7qWfv4ieBfeGNChQ4'
+phone = '+38093 000 00 00'
+api_hash = ''
+api_id = 00000
+bot_token = ''
 
 client = TelegramClient('qwe', api_id, api_hash)
 client.start(phone=phone)
