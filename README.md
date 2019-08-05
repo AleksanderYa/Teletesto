@@ -1,7 +1,7 @@
 # Teletesto
 Test TelegramBot and TelegramClient and create something crazy.   
 Поиск в новых сообщениях в указаних чатах по заданому поисковому слову.  
-Например.Отбор необходимых вакансий из чатов о поиске работы....и тд.  
+> Например:Отбор необходимых вакансий из чатов о поиске работы....и тд.  
 
 
 ## > pip install telethon 
@@ -15,7 +15,7 @@ Test TelegramBot and TelegramClient and create something crazy.
 После запустить:
 ## > py start_bot.py  
 И дальше управлять в телеграме через бота.  
-> Внутри телеграм бота:  
+Внутри телеграм бота:  
 Есть меню. В котором можно добавить
 
 
