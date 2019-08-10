@@ -6,10 +6,10 @@
 ## > pip install telethon 
 
 В файлах func.py и setup.py нужно вставить свои значения для таких аргументов:  
-* phone - (str) номер телефона  
-* api_hash - (str) хеш клиента   
-* api_id - (int) айди клиента   
-* bot_token - (str) токен бота  
+* phone - номер телефона, str
+* api_hash - хеш клиента, str 
+* api_id - айди клиента, int 
+* bot_token - токен бота, str  
 
 После запустить:
 ## > py start_bot.py  
