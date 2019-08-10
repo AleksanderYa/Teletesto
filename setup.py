@@ -3,7 +3,8 @@ from telethon.tl.custom import Button
 # import telethon.tl.custom
 from func import start, asfind_chats
 
-# Tresh
+# Tresh # What does it means?
+# Why you use this variables here again? You declared then in func.py already
 phone = '+38093 000 00 00'
 api_hash = ''
 api_id = ''
@@ -107,6 +108,7 @@ markup_pattern_chat = client.build_reply_markup([
         ])
 
 def put_listaddchat(dictt,listt):
+#             Rename parameters to understand what is their use.
     '''
     Функция берет из словаря имя и записывает в список
     :param dictt:  словарь в котором назавания и айди всех чатов
@@ -184,6 +186,7 @@ async def setup_bot(event):
                     try:
                         list_del_chat.remove('Пусто')
                     except Exception as e:
+#                         You should use exact Exception type, not all Exceptions.
                         print(e)
                     print(tuple(list_id_chat))
                     markup_add_chat = client.build_reply_markup([
